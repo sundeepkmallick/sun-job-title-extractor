@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML training outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+
+# Private/local datasets
+data/
+datasets/
+private_data/
+personal_data/
+
+# Local model-development artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Local ONNX exports
+*.onnx
+
+# Secrets
+*.key
+*.pem
+*.p12
+*.jks
+credentials.json
+secrets.json

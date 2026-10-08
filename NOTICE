@@ -1,0 +1,72 @@
+Sun Job Title Extractor
+Copyright (c) 2026 Sundeep Kumar Mallick
+
+This project includes or is derived from third-party components.
+
+1. Microsoft Multilingual MiniLM
+
+The job-title extraction model is fine-tuned from:
+
+Microsoft Multilingual-MiniLM-L12-H384
+
+The upstream model is distributed under the MIT License.
+
+Source:
+https://huggingface.co/microsoft/Multilingual-MiniLM-L12-H384
+
+
+2. Hugging Face Tokenizers
+
+The native tokenizer component uses the Hugging Face tokenizers
+Rust library.
+
+License:
+Apache License 2.0
+
+Source:
+https://github.com/huggingface/tokenizers
+
+
+3. ONNX Runtime
+
+The Android inference integration uses:
+
+com.microsoft.onnxruntime:onnxruntime-android:1.30.0
+
+License:
+MIT License
+
+Source:
+https://github.com/microsoft/onnxruntime
+
+
+4. Rust JNI
+
+The native tokenizer bridge uses the jni Rust crate.
+
+License:
+MIT OR Apache-2.0
+
+Source:
+https://github.com/jni-rs/jni-rs
+
+
+5. Training data
+
+The original recruitment-email training, validation, benchmark,
+and evaluation datasets are private and are not included in this
+public release.
+
+No private email bodies, subjects, recruiter information,
+application identifiers, or private datasets are redistributed
+as part of this project.
+
+
+6. Model provenance
+
+The published model is a fine-tuned and quantized derivative of
+Microsoft Multilingual-MiniLM-L12-H384.
+
+The model is intended for job-title extraction from recruitment
+emails. It is not an employment decision system and should not be
+used as the sole basis for employment decisions.
